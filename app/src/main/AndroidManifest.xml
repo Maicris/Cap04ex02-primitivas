@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="br.com.criandojogosandroid.cap04ex02_primitivas" >
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme" >
+        <activity android:name=".MainActivity" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".PontosActivity"
+            android:label="Desenhando Pontos">
+            <intent-filter>
+                <action android:name="phd.com.br.primitivas.PontosActivity"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".LinhasActivity"
+            android:label="Desenhando Linhas">
+            <intent-filter>
+                <action android:name="phd.com.br.primitivas.LinhasActivity"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".CirculosActivity"
+            android:label="Desenhando Círculos">
+            <intent-filter>
+                <action android:name="phd.com.br.primitivas.CirculosActivity"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".RectActivity"
+            android:label="Desenhando Retângulos">
+            <intent-filter>
+                <action android:name="phd.com.br.primitivas.RectActivity"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".RoundRectActivity"
+            android:label="Desenhando RoundRects">
+            <intent-filter>
+                <action android:name="phd.com.br.primitivas.RoundRectActivity"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".OvalActivity"
+            android:label="Desenhando Ovais">
+            <intent-filter>
+                <action android:name="phd.com.br.primitivas.OvalActivity"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".ArcActivity"
+            android:label="Desenhando Arcos">
+            <intent-filter>
+                <action android:name="phd.com.br.primitivas.ArcActivity"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
